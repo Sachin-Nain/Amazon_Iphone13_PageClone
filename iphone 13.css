@@ -1,0 +1,553 @@
+.navigation_bar {
+	background-color: #242e39;
+	color: white;
+	padding: 10px;
+	display: flex;
+	margin: 0;
+}
+
+.navigation_bar_li {
+	display:inline;
+	padding-left: 20px;
+}
+
+.head_nav {
+	list-style-type: none;
+	display: flex;
+	margin: 0%;
+	height: 62px;
+}
+
+.bar {
+	display: inline;
+	width: 8%;
+	text-align: center;
+}
+
+.header {
+	margin: 0.7% 0;
+}
+
+.header:hover {
+	background-color: yellowgreen;
+}
+
+#amazon_logo {
+	width: 75%; 
+	height: 50px; 
+}
+
+#amazon_logo:hover {
+	height: 48px;
+	border-style: solid;
+	border-color: white;
+	border-radius: 3px;
+}
+
+.search_bar {
+	display: flex;
+    height: 65%;
+    margin-top: 1.3%;
+    padding-left: 2%;
+}
+
+.srch_button {
+	font-size: 24px;
+    background: #ffa400;
+    height: 100%;
+    width: 6%;
+    border: 1px solid beige;
+    border-radius: 0 10px 10px 0;
+}
+
+#deliver {
+    text-align: center;
+    font-size: 16px;
+    width: 8%;
+    padding: 0 0.8%;
+    margin-top: 0.5%;
+    box-sizing: border-box;
+}
+
+.location_icon {
+	font-size:15px !important;
+	padding-top: 3px;
+}
+
+#deliver:hover {
+	font-size: 13px;
+	border-style: solid;
+	border-color: white;
+	border-radius: 3px;
+}
+
+.select_region {
+	display: flex;
+	margin-top: 12%;
+}
+
+.sign_in {
+	width: 12%;
+}
+
+.signin_lists {
+	display: block;
+	color: #404085;
+}
+
+.Sign_in_box {
+	position: absolute;
+    width: 30%;
+    top: 8%;
+    right: 5%;
+    background-color: white;
+    border-radius: 4px;
+}
+
+.blur_on_hover {
+	position: absolute;
+	width: 100%;
+	top: 13%;
+}
+
+.select_region:hover {
+	border-style: solid;
+	border-color: white;
+}
+
+#search_element {
+	border-radius: 10px 0 0 10px;
+    width: 8%; 
+    border-style: none;
+    background-color: #e8e8d2;
+}
+
+.iPhone_zoomable_img {
+	box-sizing: border-box;
+	width: 103%;
+	height: 100%;
+	background-image: url("https://m.media-amazon.com/images/I/61sDyXAepuL._SL1500_.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.iPhone_zoomable_img:hover {
+	cursor: zoom-in;
+}
+
+.image_zoom {
+	position: absolute;
+	box-shadow: 1px 1px 2px 2px #888888;
+    background: wheat;
+    width: 50%;
+    height: 58%;
+    border: 0.2px solid black;
+    border-radius: 5px;
+    top: 38%;
+    right: 2%;
+}
+
+.nav_bar_links {
+	text-decoration: none;
+	color: white;
+}
+
+.language {
+    width: 25% !important;
+    margin-top: 26%;
+    height: fit-content;
+}
+
+.navigation_2bar {
+	border-bottom-style: solid;
+	border-bottom-color: #efe7e7;
+	background-color:white;
+	color: black;
+	padding: 8px;
+	margin-top: -1%;
+	display: flex;
+	margin: 0;
+}
+
+.main_navbar {
+	display: flex;
+	padding: 7px;
+	background-color: rgb(242 239 239 / 50%);
+	margin: 0%;
+}
+
+.navigation_2bar_li {
+	display:inline;
+	padding-left: 20px;
+	font-size: 14px;
+}
+
+.nav_2bar_links {
+	text-decoration: none;
+}
+
+.main_bar {
+	display: inline;
+	width: 12%;
+	margin-top: 1.3%;
+}
+
+.main_bar_image {
+	text-align: center;
+	display: inline;
+	width: 11%;
+}
+
+.main_bar_para {
+	margin-top: 0px;
+    font-size: 13px;
+    color: #3f6aca;
+    text-decoration: none;
+}
+
+.side_nav_bar {
+	margin-bottom: 20%;
+    text-align: center;
+    border-style: ridge;
+}
+
+.table {
+	width: 100%;
+}
+
+.fectures {
+	width: 30%;
+}
+
+.diff_color_ofiphone {
+	border: 1px solid #dcd6d6;
+    margin: 0 4% 0 0;
+    padding: 1% 1% 0;
+}
+
+.diff_color_ofiphone:hover {
+	border-color: orangered;
+}
+
+.vst_store {
+	color: #0066c0;
+	text-decoration: none;
+}
+
+.vst_store:hover {
+	text-decoration: underline;
+	color: orangered;
+}
+
+.nav_bar_links:hover {
+	color: lightskyblue;
+}
+
+.side_nav_bar:hover {
+	border-color: rgb(230 114 18 / 50%);
+}
+
+.main_bar_img_links:hover {
+	text-decoration: underline;
+	color: black;
+}
+
+.iPhone_onbar:hover {
+	filter: drop-shadow(2px 4px 6px black);
+}
+
+.share_icon {
+	width: 20%;
+	text-align: center;
+}
+
+.social_media_icon {
+	width: 10%;
+	text-align: center;
+}
+
+.form_for_exc {
+	border-style: solid;
+    border-color: #d0c7c7;
+    border-radius: 6px;
+    border-width: 1.5px;
+    margin-top: 3%;
+    background-color: rgb(242 239 239 / 50%);
+    padding: 3%;
+}
+
+.other_details {
+	color: #007185;
+}
+
+.other_details:hover {
+	color: orangered;
+}
+
+.Quantity {
+	height: 30px;
+    margin-top: 5%;
+    margin-left: 5%;
+}
+
+.phone_exchange {
+	background-color: #c8f8c9;
+	border-radius: 5px;
+	border-width: 1.5px;
+}
+
+.phone_exchange:hover {
+	background-color: #bbf7fc;
+	filter: drop-shadow(1px 1px);
+}
+
+.compare_iphone {
+	width: 16%;
+	text-align: center;
+}
+
+.iPhones {
+	width: 50%;
+}
+
+.Fst_clmn {
+	width: 14%;
+	padding: 0.5%;
+}
+
+.rest_clmn {
+	width: 16%;
+	padding: 0.5%;
+}
+
+table,th,td {
+	border: 1px solid #eaeaea;;
+	border-collapse: collapse;
+}
+
+tr:nth-child(odd) {
+  background-color: #f6f6f6;
+}
+
+.left_review {
+	width: 29%;
+	margin-left: 3%;
+	box-sizing: border-box;
+}
+
+.right_review {
+	width: 44%;
+	margin-left: 2%;
+}
+
+.review_bar {
+	width: 178px;
+	background: #f0f2f2;
+	border: 1.7px solid #e6dfdf;
+	border-radius: 5px;
+}
+
+.review_bar:hover {
+	border-color: #FFA41C;
+}
+
+.star {
+	color: #007185;
+}
+
+.Name_of_iphone {
+	color: #007185;
+}
+
+.Name_of_iphone:hover {
+	color: orangered;
+	text-decoration: underline;
+}
+
+.star:hover {
+	color: orangered;
+	text-decoration: underline;
+}
+
+.review_of_iphone {
+	margin: 3% 0;
+}
+
+.By_features table,th,td {
+	border-style: none;
+}
+
+.By_features {
+	background-color: white !important;
+}
+
+.right_feature {
+	float: none;
+	width: 60%;
+	padding: 2%;
+}
+
+.left_feature {
+	width: 40%;
+	padding: 2%;
+}
+
+.your_review {
+	width: 60%;
+    font-size: 15px;
+    padding: 1% 0;
+    text-align: center;
+    border: 2px solid #dcdcdc;
+    border-radius: 5px;
+}
+
+.rest_iphone {
+	width: 90%;
+}
+
+.review_span {
+	display: inline-block;
+	width: auto;
+    padding: 1% 2%;
+    margin: 1% 1%;
+    background-color: #d7e8ea;
+}
+
+.review_ancr {
+	color: black;
+}
+
+.review_ancr:hover {
+	color: black;
+}
+
+.user_icon {
+	font-size: 30px !important;
+    width: 5%;
+    background: #c2c6c6;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.feedback_button {
+	margin: 2% 2% 0 0;
+    width: 17%;
+    font-size: 14px;
+    border: 1px solid #d8d2d2;
+    border-radius: 7px;
+    text-align: center;
+    padding: 1.5% 0;
+}
+
+.blue_tick {
+	font-size: 20px;
+    padding-left: 15px;
+    color: #1cc1f8;
+}
+
+.other_iphones {
+	width: 11%;
+	padding: 0 0.5%;
+}
+
+.less_than_symbl {
+	width: 35%;
+	border: 1px solid #c0b8b8;
+    border-radius: 7px;
+    font-size: 30px;
+    margin-left: 35%;
+    margin-top: 50%;
+}
+
+.sign_in_btn {
+	width: 16%;
+    border: 1px solid orange;
+    padding: 0.3% 0;
+    border-radius: 6px;
+    background: #f8d867;
+}
+
+.footer_section {
+	width: 25%;
+	margin-bottom: 3%;
+}
+
+.heading_for_footer {
+	margin-left: 4%;
+}
+
+.links_of_footer {
+	list-style-type: none;
+	color: white;
+	margin-left: -7%;
+}
+
+.ftr_link {
+	color: white;
+}
+
+.ftr_link:hover {
+	color: white;
+	text-decoration: underline;
+}
+
+.li_of_ftr_links {
+	margin: 3% 0;
+}
+
+.back_to_top {
+	background-color: #3b4e5d;
+	width: 100%;
+    font-size: 15px;
+    padding: 1% 0px;
+}
+
+.back_to_top:hover {
+	background-color: #4a5e6d;
+}
+
+.Cntry_links {
+	color: white;
+	text-align: center;
+}
+
+.Cntry_links:hover {
+	color: white;
+	text-decoration: underline;
+}
+.Cntry_links_span {
+	margin: 1%;
+}
+
+.amazon_img {
+	width: 5%;
+	height: 50px;
+    margin: 2% 0 1.5%;
+    border: 0.5px solid #969187;
+    border-radius: 20px;
+}
+
+.footer_nav {
+	color: white;
+}
+
+.footer_nav:hover {
+	color: white;
+	text-decoration: underline;
+}
+
+.Copyright_opt {
+	padding: 1%;
+	color: white;
+}
+
+.Copyright_option {
+	padding: 1%;
+	color: white;
+}
+
+.Copyright_opt:hover {
+	color: white;
+	text-decoration: underline;
+}
