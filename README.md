@@ -1,2 +1,2 @@
 # Amazon_Iphone13_PageClone
-My first project that is clone of Amazon web page of Iphone 13 using HTML,CSS & JAVASCRIPT
+My first project is a clone of the Amazon web page of iPhone 13 using HTML, CSS & JAVASCRIPT
